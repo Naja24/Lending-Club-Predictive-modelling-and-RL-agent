@@ -9,7 +9,7 @@
 
 This project sought to develop an intelligent loan approval system to maximize financial returns for a fintech company. We compared two distinct machine learning paradigms: a traditional **Supervised Deep Learning (DL)** model trained to *predict risk* and an **Offline Reinforcement Learning (RL)** agent trained to *optimize a policy* for maximum profit.
 
-The key finding is that while the DL model proved effective at identifying risk (AUC: 0.716), its objective is only a proxy for the true business goal. The RL agent, trained on the same data, learned a policy with an **Estimated Policy Value of $XXX.XX** per loan. This represents a potential **improvement of over $YYYY.YY** per loan compared to the bank's historical policy (which averaged a loss of -$1372.25 per loan). This result strongly indicates that RL is a superior framework for this business problem, as it optimizes for the financial outcome directly.
+The key finding is that while the DL model proved effective at identifying risk (AUC: 0.716), its objective is only a proxy for the true business goal. The RL agent, trained on the same data, learned a policy with an **Estimated Policy Value of $962.9542** per loan. This represents a potential **improvement of over $2335.20** per loan compared to the bank's historical policy (which averaged a loss of -$1372.25 per loan). This result strongly indicates that RL is a superior framework for this business problem, as it optimizes for the financial outcome directly.
 
 ---
 
@@ -55,7 +55,7 @@ We used the [LendingClub Loan Data](https://www.kaggle.com/datasets/wordsforthew
 | **Model 1 (DL)** | AUC (Area Under ROC Curve) | **0.716** |
 | **Model 1 (DL)** | F1-Score (tuned threshold) | **0.432** |
 | **Historical Policy** | Actual Average Reward | **-$1372.25** |
-| **Model 2 (RL)** | Estimated Policy Value | **$XXX.XX** *(<- Fill in your final value)* |
+| **Model 2 (RL)** | Estimated Policy Value | **$962.9545**|
 
 ### 3.2. Explaining the Difference in Metrics
 
@@ -67,8 +67,8 @@ A crucial part of this project is understanding *why* we use different metrics f
     -   **Conclusion:** These are *proxy* metrics. They measure *predictive accuracy*, not *business outcome*.
 
 -   **Why "Estimated Policy Value" for the RL Agent?**
-    -   **Policy Value ($XXX.XX)** is the *direct business metric*. It answers the question, "If we use this agent's approval policy, how much money (in dollars) will we make or lose on average for every loan application we process?"
-    -   This metric moves beyond simple prediction. It represents the *expected financial return* of the learned decision-making policy. This is precisely what the business wants to maximize. The **$YYY.YY** improvement over the historical loss of -$1372.25 quantifies the business value of our new model.
+    -   **Policy Value ($962.9545)** is the *direct business metric*. It answers the question, "If we use this agent's approval policy, how much money (in dollars) will we make or lose on average for every loan application we process?"
+    -   This metric moves beyond simple prediction. It represents the *expected financial return* of the learned decision-making policy. This is precisely what the business wants to maximize. The **$2335.20** improvement over the historical loss of -$1372.25 quantifies the business value of our new model.
 
 ### 3.3. Comparing the Policies: The "Profit Optimizer" vs. The "Risk Avoider"
 
