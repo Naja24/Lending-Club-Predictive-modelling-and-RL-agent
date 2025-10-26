@@ -1,6 +1,6 @@
 # Final Report: Policy Optimization for Financial Decision-Making
 
-**Author:** [Your Name]
+**Author:** Nayan Jain
 **Date:** October 26, 2025
 
 ---
