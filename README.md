@@ -84,3 +84,25 @@ This project successfully trained two distinct models and found that:
 ## Required Libraries
 
 A `requirements.txt` file is included. The key libraries are:
+
+pandas
+
+numpy
+
+scikit-learn
+
+torch
+
+matplotlib
+
+seaborn
+
+d3rlpy
+
+kaggle
+
+pyarrow
+
+You can install them by running:
+
+pip install -r requirements.txt
