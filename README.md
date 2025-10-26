@@ -77,7 +77,7 @@ This project is designed to run in a Kaggle Notebook environment.
 This project successfully trained two distinct models and found that:
 
 -   **Model 1 (DL)** achieved an **AUC of 0.716** and an **F1-Score of 0.43**. This demonstrates it is a capable classifier, significantly better than chance at *ranking* risky applicants.
--   **Model 2 (RL)** learned a policy with an **Estimated Policy Value of $XXX.XX** (fill in from your result).
+-   **Model 2 (RL)** learned a policy with an **Estimated Policy Value of $962.9542** (fill in from your result).
 -   This compares to the bank's **Historical Policy Value of -$1372.25**, which represents the average loss per loan in the dataset.
 -   The RL agent's policy demonstrates a significant financial improvement, validating the approach of optimizing for business metrics directly.
 
